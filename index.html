@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>RG GAMER 2.0</title>
+<title>SAIF SHAIKH | Gaming</title>
 
 <style>
 * {
@@ -13,176 +13,95 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
-  background: #080610;
+  background: #080808;
   color: white;
-  overflow-x: hidden;
-}
-
-body:before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  background-image:
-    linear-gradient(#9b35ff12 1px, transparent 1px),
-    linear-gradient(90deg,#9b35ff12 1px,transparent 1px);
-  background-size: 35px 35px;
-  pointer-events: none;
+  font-family: Arial, sans-serif;
 }
 
 header {
-  padding: 25px 15px;
+  background: linear-gradient(135deg,#ff0000,#500000);
+  padding: 25px;
   text-align: center;
-  background: linear-gradient(135deg,#19082c,#080610);
-  border-bottom: 1px solid #a855f7;
 }
 
-.logo {
-  font-size: 34px;
-  font-weight: 900;
-  color: #d9a5ff;
-  text-shadow: 0 0 15px #a020ff;
-  letter-spacing: 2px;
-}
-
-.subtitle {
-  color: #c9a4e8;
-  font-size: 12px;
+header h1 {
+  font-size: 32px;
   letter-spacing: 3px;
-  margin-top: 9px;
+  text-shadow: 0 0 15px black;
+}
+
+nav {
+  background: #151515;
+  padding: 18px;
+  text-align: center;
+  border-bottom: 2px solid red;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 12px;
+  font-weight: bold;
 }
 
 .hero {
+  padding: 100px 15px;
   text-align: center;
-  padding: 55px 15px 35px;
+  background: radial-gradient(#420000,#080808);
 }
 
-.hero h1 {
-  font-size: 29px;
-  line-height: 1.4;
-}
-
-.hero h1 span {
-  color: #bd68ff;
-  text-shadow: 0 0 15px #a000ff;
+.hero h2 {
+  font-size: 38px;
+  color: red;
+  margin-bottom: 20px;
 }
 
 .hero p {
-  color: #aaa;
-  margin-top: 13px;
-  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 30px;
 }
 
-.tag {
+.btn {
   display: inline-block;
-  margin-top: 20px;
-  padding: 9px 17px;
-  border: 1px solid #a855f7;
-  border-radius: 30px;
-  color: #d9a5ff;
-  font-size: 12px;
+  background: red;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-.container {
-  max-width: 650px;
-  margin: auto;
-  padding: 15px;
+section {
+  padding: 50px 20px;
+  text-align: center;
 }
 
-.section-title {
-  font-size: 20px;
-  margin: 20px 0;
-  color: #d9a5ff;
+section h2 {
+  color: red;
+  margin-bottom: 25px;
 }
 
 .card {
-  position: relative;
-  overflow: hidden;
-  background: linear-gradient(145deg,#21132f,#100c19);
-  border: 1px solid #7835a8;
-  border-radius: 18px;
-  padding: 22px;
-  margin-bottom: 20px;
-  box-shadow: 0 5px 25px #8b20ff20;
-}
-
-.card:after {
-  content: "";
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  background: #9b35ff;
-  filter: blur(75px);
-  right: -30px;
-  top: -30px;
-  opacity: .35;
-}
-
-.version {
-  display: inline-block;
-  background: #58218a;
-  color: #f0d7ff;
-  padding: 6px 11px;
-  border-radius: 6px;
-  font-size: 11px;
-  margin-bottom: 13px;
-}
-
-.card h2 {
-  font-size: 21px;
-  margin-bottom: 9px;
-}
-
-.card p {
-  color: #aaa;
-  font-size: 13px;
-  margin-bottom: 19px;
-}
-
-.download {
-  position: relative;
-  display: block;
-  text-align: center;
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-  letter-spacing: 1px;
-  padding: 14px;
-  border-radius: 10px;
-  background: linear-gradient(90deg,#7020bb,#c04cff);
-  box-shadow: 0 0 18px #a020ff55;
-  transition: .3s;
-}
-
-.download:hover {
-  transform: scale(1.03);
-  box-shadow: 0 0 25px #bc4cff;
-}
-
-.discord {
-  display: block;
-  margin: 30px 0;
-  text-align: center;
-  text-decoration: none;
-  color: white;
-  background: linear-gradient(90deg,#5865f2,#813cff);
-  padding: 17px;
+  background: #171717;
+  border: 1px solid #ff0000;
+  padding: 30px;
+  margin: 18px auto;
+  max-width: 350px;
   border-radius: 12px;
-  font-weight: bold;
-  box-shadow: 0 0 20px #5865f255;
+  box-shadow: 0 0 15px #400000;
+}
+
+.card h3 {
+  color: red;
+  margin-bottom: 15px;
 }
 
 footer {
+  background: #151515;
+  border-top: 2px solid red;
+  padding: 25px;
   text-align: center;
-  border-top: 1px solid #51266d;
-  padding: 28px 10px;
-  color: #a99bb5;
-  font-size: 12px;
-  line-height: 2;
-}
-
-footer span {
-  color: #d9a5ff;
+  color: #aaa;
 }
 </style>
 </head>
@@ -190,81 +109,51 @@ footer span {
 <body>
 
 <header>
-  <div class="logo">RG GAMER 2.0</div>
-  <div class="subtitle">GAMING DOWNLOAD CENTER</div>
+<h1>SAIF SHAIKH</h1>
+<p>OFFICIAL GAMING WEBSITE</p>
 </header>
 
-<section class="hero">
-  <h1>WELCOME TO<br><span>RG GAMER 2.0</span></h1>
-  <p>YOUR CLASSIC FREE FIRE DOWNLOAD ZONE</p>
-  <div class="tag">⚡ CLASSIC GAMING EXPERIENCE ⚡</div>
-</section>
+<nav>
+<a href="#home">HOME</a>
+<a href="#games">GAMES</a>
+<a href="#about">ABOUT</a>
+</nav>
 
-<div class="container">
-
-  <h2 class="section-title">✦ GAME DOWNLOADS</h2>
-
-  <div class="card">
-    <div class="version">CLASSIC • 2019</div>
-    <h2>FREE FIRE 2019</h2>
-    <p>Free Fire Version 1.30.0</p>
-    <a class="download"
-    href="https://www.mediafire.com/file/7w491p04phwrkhn/FreeFire-1.30.0-project-samel-corp_2019.apk/file"
-    target="_blank">⬇ DOWNLOAD NOW</a>
-  </div>
-
-  <div class="card">
-    <div class="version">CLASSIC • 2022</div>
-    <h2>FREE FIRE 2022</h2>
-    <p>32 BIT VERSION</p>
-    <a class="download"
-    href="https://www.mediafire.com/file/2ik7zip88r1xun2/x32bits-projectsamel.apk/file"
-    target="_blank">⬇ DOWNLOAD NOW</a>
-  </div>
-
-  <div class="card">
-    <div class="version">64 BIT • 2022</div>
-    <h2>FREE FIRE 2022 64 BIT</h2>
-    <p>64 BIT VERSION</p>
-    <a class="download"
-    href="https://www.mediafire.com/file/va1hnh2pcjfrf6w/x64bits-projectsamel.apk/file"
-    target="_blank">⬇ DOWNLOAD NOW</a>
-  </div>
-
-  <div class="card">
-  <span class="tag">PROJECT • 2022</span>
-  <h2>FREE FIRE 2022 FOR PC</h2>
-  <p>PC VERSION</p>
-  <a class="download"
-  href="https://www.mediafire.com/file/cnztflkb1ur6enf/x86-projectsamel.apk/file"
-  target="_blank">
-  ↓ DOWNLOAD NOW
-  </a>
-  </div>
-  </a>
-  
-  <div class="card">
-    <div class="version">PROJECT • 2023</div>
-    <h2>FREE FIRE 2023</h2>
-    <p>Barbosa Project 2023</p>
-    <a class="download"
-    href="https://www.mediafire.com/file/wefr17mhq4gmwth/Barbosa_Project_2023.apk/file"
-    target="_blank">⬇ DOWNLOAD NOW</a>
-  </div>
-
-  <a class="discord"
-  href="https://discord.gg/gNU574zx9"
-  target="_blank">
-  JOIN RG GAMER DISCORD SERVER
-  </a>
-
+<div class="hero" id="home">
+<h2>WELCOME TO MY WORLD</h2>
+<p>SAIF SHAIKH GAMING COMMUNITY</p>
+<a href="#games" class="btn">EXPLORE NOW</a>
 </div>
 
+<section id="games">
+<h2>🎮 MY GAMES</h2>
+
+<div class="card">
+<h3>FREE FIRE</h3>
+<p>Gaming Updates & News</p>
+</div>
+
+<div class="card">
+<h3>GAMING DOWNLOADS</h3>
+<p>Explore Gaming Downloads</p>
+</div>
+
+<div class="card">
+<h3>GAMING COMMUNITY</h3>
+<p>Welcome to our community!</p>
+</div>
+</section>
+
+<section id="about">
+<h2>ABOUT SAIF SHAIKH</h2>
+<p>Welcome to my official gaming website.</p>
+</section>
+
 <footer>
-  <span>RG GAMER 2.0</span><br>
-  MADE BY RG GAMER 2.0<br>
-  © 2026 ALL RIGHTS RESERVED
+<p>© 2026 SAIF SHAIKH</p>
+<p>ALL RIGHTS RESERVED</p>
 </footer>
 
 </body>
 </html>
+
